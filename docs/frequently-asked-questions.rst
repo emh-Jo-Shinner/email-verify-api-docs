@@ -84,7 +84,7 @@ Your service says an address is OK and I know it's Bad (or vice versa)?
 `Email Hippo`_ queries mail servers in real time. Mail servers respond with one of 2 possible answers for a given email address:
 
  * Yes, the email address exists - SMTP code 2xx
- * No, the email address doe not exist - SMTP code 5xx
+ * No, the email address does not exist - SMTP code 5xx
 
 `Email Hippo`_ uses the above response codes to determine if an email address is valid or not and reports this back to you.
 
