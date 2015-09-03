@@ -43,7 +43,7 @@ Main Status Response Codes
 	:term:`MX`, Mailbox, Deep Server Configuration, :term:`Grey Listing`
 
 :Bad:
-	Verification fails checks for definitive reasons (e.g. mail box does not exist)
+	Verification fails checks for definitive reasons (e.g. mailbox does not exist)
 	
 :RetryLater:
 	Conclusive verification result cannot be achieved at this time. Please try again later. - This is ShutDowns, IPBlock, TimeOuts
