@@ -141,7 +141,7 @@ Additional Status Codes
 :Success:
 	Successful verification.
 	
-	100% confidence that the mail box exists.
+	100% confidence that the mailbox exists.
 	
 :TooManyAtSignsFound:
 	Too many '@' signs found in email address.
@@ -180,7 +180,7 @@ Additional Status Codes
 	being subjected to email blocks from a :term:`DNS` :term:`Block List`.
 
 	An :term:`ESP` cannot tolerate entries in a :term:`Block List` (as it adversely 
-	affects email deliver-ability for all customers) and will actively refuse 
+	affects email deliverability for all customers) and will actively refuse 
 	to send emails on behalf of customers with a history of generating entries in a :term:`Block List`.
 
 	
