@@ -26,7 +26,7 @@ DNS MX checking                                     yes
 Geo-location detection                              yes
 Execution timer                                     yes
 Mailbox checking                                    yes
-Enhanced mail box detection reason codes            yes
+Enhanced mailbox detection reason codes             yes
 Reporting / charts?                                 yes
 Versioning supported?                               yes
 :term:`B2B` coverage?                               yes
