@@ -17,7 +17,7 @@ Fanatical Service Quality Management (SQM)
 ensure the best possible uptime and coverage.
 
 Uptime and functional correctness is actively monitored on a minute by 
-minute basis from multiple data centers dispersed across North America and Europe.
+minute basis from multiple data centers dispersed across North America, Europe and Asia.
 
 Fast, Transparent Response Times
 --------------------------------
@@ -45,7 +45,7 @@ domains but also the more technically challenging :term:`B2C` domains including:
 Spam Trap Detection
 -------------------
 After many years R&D, `Email Hippo`_ has developed technology  
-that can effectively identify probable :term:`Spam Trap`s.
+that can effectively identify any probable :term:`Spam Trap`.
 
 Disposable Email Address Detection
 ----------------------------------
