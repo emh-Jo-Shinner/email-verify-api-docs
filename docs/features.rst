@@ -109,7 +109,7 @@ MailBox
 	Verify email boxes with :term:`SMTP` checks.
 	
 	Connect to mail server and perform :term:`SMTP` 
-	protocol to verify if mail box exists.
+	protocol to verify if mailbox exists.
 	
 	This is the deepest level of verification. It is 
 	performed over the network.
