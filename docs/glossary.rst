@@ -27,7 +27,7 @@ Glossary
 		
 		Business email hosting services are generally private, 
 		enterprise grade hosting services typically hosted in either 
-		private data centers or in cloud based infrastructure such.
+		private data centers or in cloud based infrastructure.
 		
 		Business to business refers to the activity of businesses
 		sending email to clients using business email addresses.
@@ -77,10 +77,7 @@ Glossary
 
 		DEA addresses should not be regarded as valid for email 
 		send purposes as it is unlikely that messages sent to 
-		DEA addresses will ever be read. DEA addresses should 
-		not be regarded as valid for email send purposes as 
-		it is unlikely that messages sent to DEA addresses will 
-		ever be read.
+		DEA addresses will ever be read.
 
 	ESP
 		**Email Service Provider**
@@ -180,7 +177,7 @@ Glossary
 		to a central email box for manual inspection. Catch all configured servers cannot 
 		respond to requests for email address verification.
 		
-		This does not affect our coverage of Hotmail, Live and Outlook mail boxes.
+		This does not affect our coverage of Hotmail, Live and Outlook mailboxes.
 	
 	Punycode
 		Punycode is a way to represent Unicode with the limited character 
@@ -195,11 +192,11 @@ Glossary
 		for further information.
 		
 	Role Address
-		A role address is a generic mail box such as info@<domain>, sales@<domain> used by organizations to manage email messages of similar 
+		A role address is a generic mailbox such as info@<domain>, sales@<domain> used by organizations to manage email messages of similar 
 		organizational types. For example, email messages sent to sales@<domain> can be routed to an organizations sales team where a team of sales 
 		people can deal with enquiries.
 		
-		Role addresses allow collaborative working based on groups rathert than indiviidual mail boxes.
+		Role addresses allow collaborative working based on groups rathert than indiviidual mailboxes.
 	
 	SLA
 		**Service Level Agreement**
