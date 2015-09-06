@@ -1,5 +1,5 @@
-.. _account: https://blank
-.. _portal: https://portal
+.. _account: https://emh-register-user.azurewebsites.net/signup
+.. _portal: https://emailhippo.azurewebsites.net
 
 Quick Start
 ===========
