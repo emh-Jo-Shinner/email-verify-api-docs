@@ -1,5 +1,5 @@
 .. _Pingdom : http://api-stats.emailhippo.com
-.. _Service Level Agreement: http://www.emailhippo.com/Home/Terms
+.. _Service Level Agreement: http://www.emailhippo.com/en-US/terms
 	
 Service Reliability
 ===================
