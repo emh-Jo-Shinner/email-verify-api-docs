@@ -1,6 +1,6 @@
-.. _Click here to signup: https://blank
+.. _Click here to signup: https://emh-register-user.azurewebsites.net/signup
 .. _portal: https://portal.emailhippo.com
-.. _Email Hippo: http://www.emailhippo.com
+.. _Email Hippo: https://www.emailhippo.com
 
 Frequently Asked Questions
 ==========================
