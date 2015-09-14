@@ -1,5 +1,5 @@
 .. _Click here to signup: https://blank
-.. _portal: https://portal
+.. _portal: https://portal.emailhippo.com
 .. _Email Hippo: http://www.emailhippo.com
 
 Frequently Asked Questions
