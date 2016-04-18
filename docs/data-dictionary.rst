@@ -50,7 +50,7 @@ Main Status Response Codes
 	
 :Unverifiable:
 	Conclusive verification result cannot be achieved due to mail server configuration 
-	or anti-spam measures. See table \"Additional Status Codes\".
+	or anti-spam measures. See table \"Additional Status Codes\". See also `What Verification Results Mean to Your Email Campaign <https://help.emailhippo.com/support/solutions/articles/12000004012-what-verification-results-mean-to-your-email-campaign>`_ .
 
 .. _Additional Status Codes:
 	
