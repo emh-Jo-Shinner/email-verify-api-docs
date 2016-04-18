@@ -46,7 +46,7 @@ Main Status Response Codes
 	Verification fails checks for definitive reasons (e.g. mailbox does not exist)
 	
 :RetryLater:
-	Conclusive verification result cannot be achieved at this time. Please try again later. - This is ShutDowns, IPBlock, TimeOuts
+	Conclusive verification result cannot be achieved at this time. Please try again later.
 	
 :Unverifiable:
 	Conclusive verification result cannot be achieved due to mail server configuration 
