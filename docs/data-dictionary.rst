@@ -72,8 +72,7 @@ Additional Status Codes
 	The domain (i.e. the bit after the '@' character) defined in the email address 
 	does not exist, according to :term:`DNS` records.
 
-	A domain that does not exist cannot have email boxes. A domain that does not 
-	exist cannot have email boxes.
+	A domain that does not exist cannot have email boxes.
 
 :DomainIsWellKnownDea:
 	The domain is a well known Disposable Email Address :term:`DEA`.
