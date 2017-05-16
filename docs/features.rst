@@ -1,7 +1,14 @@
 .. _Email Hippo: http://www.emailhippo.com
+.. _mongoDB: https://www.mongodb.com
 
 Features
 ========
+
+Confidence In Data Security
+---------------------------
+With ISO27001:2013 certification, robust technology and clearly defined policies and procedures, you can trust `Email Hippo`_ with your data.
+
+See :doc:`data-privacy` for more information.
 
 > 99.9% Service Availability
 ----------------------------
@@ -11,6 +18,20 @@ multiple data centers in multiple regions deliver enterprise grade resilience.
 
 See :doc:`reliability` for more information on availability and :term:`SLA`.
 
+Multiple Response Formats
+-------------------------
+Since Version 3 of our services, we set the bar higher for email address verification integration. Whilst most of our competitors 
+only offer :term:`JSON`, `Email Hippo`_ goes further with giving our customers more protocol options:
+
+ * :term:`JSON` (industry standard modern text based interchange.)
+ * :term:`XML` (industry standard legacy text based interchange. Great for interop with older systems.)
+ * :term:`BSON` (industry standard binary based interchange. Ideal for direct sorage in `mongoDB`_.)
+ * :term:`protobuf` (Google standard for binary based interchange. Ideal for applications requiring low bandwidth and high performance.)
+
+Easy Integration
+----------------
+See :doc:`client-libraries` to see how quick and easy it is to integrate with our services from over 19 different technologies and platforms.
+ 
 Fanatical Service Quality Management (SQM)
 ------------------------------------------
 `Email Hippo`_ operational staff obsessively monitor services to 
@@ -23,13 +44,22 @@ Fast, Transparent Response Times
 --------------------------------
 Every query response includes stopwatch data that shows the time taken to execute the request.
 
-Multi Factor Verification
--------------------------
+Proprietary Scoring and Risk Assessment
+---------------------------------------
+ * Send risk assessment scoring based on `Email Hippo`_ proprietary scoring heuristics :sup:`(new)`
+ * Spam assessment and block-list risk scoring based on `Email Hippo`_ rules and 3rd party data sources including SpamHaus :sup:`(new)`
+ * Overall risk scoring based on Email Hippo assessment of Send Risk combined with spam assessment :sup:`(new)`
+
+Multi Factor Verification and Data Enrichment
+---------------------------------------------
 Progressive verification using multiple verification processes including:
 
  * Syntax checking
  * DNS checking
+ * Block-list checking (e.g. spamhaus)
+ * Web infrastructure checking
  * Mailbox checking
+ * Proprietary risk scoring including assessment of risks for receiving email from (spam), sending email to (send score) and overall risk assesment.
  
 Unrivalled Coverage
 -------------------
@@ -38,7 +68,6 @@ software stack, `Email Hippo`_ has evolved its services to provide good coverage
 domains but also the more technically challenging :term:`B2C` domains including:
 
  * Hotmail
- * Yahoo
  * AOL
  * Yandex
 
@@ -49,7 +78,19 @@ that can effectively identify any probable :term:`Spam Trap`.
 
 Disposable Email Address Detection
 ----------------------------------
-Identify :term:`DEA` mail boxes.
+**Advanced Disposable Email Address Detection detection based on Email Hippo multi-vector real-time analysis.**
+
+Features include:
+
+ * Checking against static lists
+ * Real-time detection of common :term:`DEA` providers obfuscation techniques (e.g. rotating domains, IP addresses and MX servers)
+
+Gibberish Detection
+-------------------
+A common vector for persons wishing to remain anonymous is to register or use a pre-existing domain. Finding an available domain is not easy and as such, many 
+(unwilling to put the effort in to finding a decent domain) instead opt for a \'Gibberish\' domain such as \`sdfre45321qaxc.com\`.
+
+`Email Hippo`_ detects gibberish in both the user and domain elements of an email address.
 
 Unrivalled Performance
 ----------------------
@@ -61,7 +102,7 @@ Typical queries are answered between 0.2 to 1.5 seconds.
 
 On Screen Reporting
 -------------------
-Every account comes with a secure online portal for customers to 
+Every account comes with a secure on-line portal for customers to 
 view their current and historic usage via simple but powerful, user friendly charts and reports.
 
 Thoughtful Versioning

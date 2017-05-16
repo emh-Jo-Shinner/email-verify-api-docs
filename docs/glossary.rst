@@ -47,6 +47,12 @@ Glossary
 	Block List
 		See :term:`DNSBL`.
 	
+	BSON
+		**Binary Object Notation**
+		
+		See `Wikipedia - BSON <https://en.wikipedia.org/wiki/BSON>`_ 
+		for further information.
+	
 	CORS
 		**Cross Origin Resource Scripting**
 		
@@ -179,6 +185,11 @@ Glossary
 		
 		This does not affect our coverage of Hotmail, Live and Outlook mailboxes.
 	
+	protobuf
+		Protocol Buffers is a method of serializing structured data.
+	
+		See `Wikipedia - Protocol Buffers <https://en.wikipedia.org/wiki/Protocol_Buffers>`_ for more information.
+	
 	Punycode
 		Punycode is a way to represent Unicode with the limited character 
 		subset of ASCII supported by the Domain Name System.
@@ -219,3 +230,9 @@ Glossary
 		
 		For more information, see `Wikipedia - Spam Traps <https://en.wikipedia.org/wiki/Spamtrap>`_.
 	
+	XML
+		**e(X)tensible Markup Language**
+		
+		See `Wikipedia - XML <https://en.wikipedia.org/wiki/XML>`_ 
+		for further information.
+		

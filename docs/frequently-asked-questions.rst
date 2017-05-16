@@ -1,9 +1,15 @@
-.. _Click here to signup: https://emh-register-user.azurewebsites.net/signup
+.. _Click here to signup: https://register.emailhippo.com
 .. _portal: https://portal.emailhippo.com
 .. _Email Hippo: https://www.emailhippo.com
+.. _CloudFlare: https://www.cloudflare.com/
+.. _Microsoft Azure: https://azure.microsoft.com
 
 Frequently Asked Questions
 ==========================
+
+Can I trust you with my data?
+-----------------------------
+Great question. See :doc:`data-privacy` for more information.
 
 How can I get a key?
 --------------------
@@ -11,33 +17,20 @@ How can I get a key?
 
 How do I call the API?
 ----------------------
-Make a simple GET request to the endpoint. For example, to query email address *john.doe@gmail.com* with license key *ABCD1234* call:
+For a :term:`JSON` response, make a simple GET request to the endpoint. For example, to query email address *john.doe@gmail.com* with license key *ABCD1234* call:
 
 ::
 	
-	https://api1.27hub.com/api/emh/a/v2?k=ABCD1234&e=john.doe@gmail.com
+	https://api.hippoapi.com/v3/more/json/ABCD1234/john.doe@gmail.com
 
+.. note:: Several response formats (other than :term:`JSON`) are available. For a detailed explanation of the responses available, see :doc:`integration-guide`.
 	
+
 What comes back from the API?
 -----------------------------
-A :term:`JSON` based response similar to:
+Various text or binary response formats.
 
-::
-	
-	{
-		"result": "Bad",
-		"reason": "MailboxDoesNotExist",
-		"role": false,
-		"free": true,
-		"disposable": false,
-		"email": "john.doe@gmail.com",
-		"domain": "gmail.com",
-		"user": "john.doe",
-		"mailServerLocation": "US",
-		"duration": 723
-	}
-
-.. note:: For a detailed explanation of the response, see :doc:`data-dictionary`.
+.. note:: For a detailed explanation of the responses available, see :doc:`integration-guide`.
 
 How reliable is the API?
 ------------------------
@@ -47,12 +40,17 @@ Does the system get slower when it's busy?
 ------------------------------------------
 No. All infrastructure is hosted in cloud based platforms with automatic scaling enabled. Automatic scaling kicks in at busy times to provide more hardware resources to meet demand.
 
+Do you cache results?
+---------------------
+To deliver the speed and reliability demanded by our customers, verification results are cached as follows:
+
+ * **Level 1 cache**: `CloudFlare`_ based. Cache expiration 2 hours.
+ * **Level 2 cache**: `Microsoft Azure`_ based. Cache expiration 30 days.
+ 
+No personally identifiable information is stored in our cache infrastructure.
+
 Can it do Hotmail?
 ------------------
-Yes.
-
-Can it do Yahoo?
-----------------
 Yes.
 
 Can it find spam traps?
