@@ -17,9 +17,9 @@
 	**email address validation and data enrichment services**
 
 	
-Email Hippo \'more\' Documentation
+Email Hippo \'More\' Documentation
 **********************************
-`Email Hippo`_ \'more\' :term:`API` services combine traditional email address verification with next generation data enrichment 
+`Email Hippo`_ \'More\' :term:`API` services combine traditional email address verification with next generation data enrichment 
 services.
 	
 This document will show you how to get up and running with the the service. 
@@ -63,7 +63,7 @@ Report shows functional requests. Functional requests are queries containing rea
 
 .. raw:: html
 
-	<a href="http://api-stats.emailhippo.com/1295400" target="_blank"><img src="https://share.pingdom.com/banners/ddb6ee4b" alt="Uptime Report for Verify API - Function: Last 30 days" title="Uptime Report for Verify API - Function: Last 30 days" width="300" height="165" /></a>
+	<a href="https://share.pingdom.com/banners/20682b4b" target="_blank"><img src="https://share.pingdom.com/banners/20682b4b" alt="Uptime Report for Email Hippo (v3.x / 'More') REST API - Function: Last 30 days" title="Uptime Report for Email Hippo (v3.x / 'More') REST API - Function: Last 30 days" width="300" height="165" /></a>
 
 
 Live Response Time Report
@@ -72,8 +72,14 @@ Report shows response times from the functional :term:`API` endpoint.
 	
 .. raw:: html
 	
-	<a href="http://api-stats.emailhippo.com/1295400" target="_blank"><img src="https://share.pingdom.com/banners/9cd35a90" alt="Response Time Report for Verify API - Function: Last 30 days" title="Response Time Report for Verify API - Function: Last 30 days" width="300" height="165" /></a>
+	<a href="https://share.pingdom.com/banners/afa11fdf" target="_blank"><img src="https://share.pingdom.com/banners/afa11fdf" alt="Uptime Report for Email Hippo (v3.x / 'More') REST API - Function: Last 30 days" title="Uptime Report for Email Hippo (v3.x / 'More') REST API - Function: Last 30 days" width="300" height="165" /></a>
 
+Editions
+--------
+.. 	toctree::
+	:maxdepth: 2
+	
+	editions	
 	
 Integration Guide
 -----------------
@@ -99,12 +105,27 @@ Reliability
 	
 	reliability
 
+Data Dictionary
+---------------
+
+.. 	toctree::
+	:maxdepth: 2
+	
+	data-dictionary
+	
 Client Libraries
 ----------------
 .. 	toctree::
 	:maxdepth: 2
 	
 	client-libraries
+
+Special Providers
+-----------------
+.. 	toctree::
+	:maxdepth: 2
+	
+	special-providers
 	
 Technical Specification
 -----------------------

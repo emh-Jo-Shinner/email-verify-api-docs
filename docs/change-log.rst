@@ -1,7 +1,7 @@
 Change Log
 ==========
 
-V3.0 (codename \'more\')
+V3.0 (codename \'More\')
 ------------------------
 **Release Date**: May 16th, 2017
 

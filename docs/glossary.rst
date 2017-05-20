@@ -201,7 +201,15 @@ Glossary
 		
 		See `Wikipedia - RESTful <https://en.wikipedia.org/wiki/Representational_state_transfer>`_ 
 		for further information.
+	
+	RFC
+		**Request for Comments**
 		
+		The principal technical development and standards-setting bodies for The Internet.
+		
+		See `Wikipedia - Request for Comments <https://en.wikipedia.org/wiki/Request_for_Comments>`_ 
+		for further information.
+	
 	Role Address
 		A role address is a generic mailbox such as info@<domain>, sales@<domain> used by organizations to manage email messages of similar 
 		organizational types. For example, email messages sent to sales@<domain> can be routed to an organizations sales team where a team of sales 
@@ -229,6 +237,11 @@ Glossary
 		Spam traps are used by many block lists (:term:`DNSBL`) to detect spammers.
 		
 		For more information, see `Wikipedia - Spam Traps <https://en.wikipedia.org/wiki/Spamtrap>`_.
+		
+	TXT
+		TXT records associate arbitary and unformatted text with a domain. TXT records uses include Sender Policy Framework (SPF) and other domain validation applications.
+		
+		For more information, see `Wikipedia - TXT record <https://en.wikipedia.org/wiki/TXT_record>`_.
 	
 	XML
 		**e(X)tensible Markup Language**
