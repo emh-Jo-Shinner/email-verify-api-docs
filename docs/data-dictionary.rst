@@ -365,7 +365,8 @@ Syntax Verification Reason Codes
 	The '@' sign not found.
 
 :DomainPartCompliancyFailure:
-	The syntax of a legal Internet host name was specified in RFC-952. One aspect of host name syntax is hereby changed: the restriction on the first character is relaxed to allow either a letter or a digit. (http://tools.ietf.org/html/rfc1123#section-2.1)
+    The syntax of a legal Internet host name was specified in RFC-952.
+    One aspect of host name syntax is hereby changed: the restriction on the first character is relaxed to allow either a letter or a digit. (http://tools.ietf.org/html/rfc1123#section-2.1)
 
     NB RFC 1123 updates RFC 1035, but this is not currently apparent from reading RFC 1035.
     Most common applications, including email and the Web, will generally not permit escaped strings (http://tools.ietf.org/html/rfc3696#section-2).
@@ -382,7 +383,7 @@ Syntax Verification Reason Codes
 	The maximum total length of a reverse-path or forward-path is 256 characters (including the punctuation and element separators) (http://tools.ietf.org/html/rfc5321#section-4.5.3.1.3)
 
 :InvalidCharacterInSequence:
-	Invalid cahracter in email address.
+	Invalid character in email address.
 
 :InvalidEmptyQuotedWord:
 	Invalid Empty Quoted Word.
@@ -390,9 +391,9 @@ Syntax Verification Reason Codes
 :InvalidFoldingWhiteSpaceSequence:
 	Folding White Space.
 
-    local-part = dot-atom / quoted-string / obs-local-part
+	local-part = dot-atom / quoted-string / obs-local-part
 
-    obs-local-part = word ("." word)(http://tools.ietf.org/html/rfc5322#section-3.4.1)
+	obs-local-part = word ("." word)(http://tools.ietf.org/html/rfc5322#section-3.4.1)
 
 :InvalidLocalPartLength:
 	Local part must be 64 characters or less.
@@ -724,11 +725,13 @@ Secondary Reason Codes
 :UpredictableSystem:
 	Upredictable system infrastructure detected.
 	
-	Various email services deliver unpredictable results to email address verification.
+	Various email services such as Office365 and Yahoo! deliver unpredictable results to email address verification.
 	
 	The reason for this unpredictability is that some email systems elect not to implement email standards (i.e. RFC 2821).
 	
 	For systems that are known to be unpredictable, we return a secondary status of UpredictableSystem.
+		
+	See :doc:`special-providers` for more information.
 	
 :TransientNetworkFault:
 	A temporary network fault occurred during verification. Please try again later.
