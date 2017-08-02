@@ -9,12 +9,9 @@ Glossary
 	ACL
 		**Access Control List.** 
 		
-		An ACL is checked against 
-		the domain calling the :term:`API`. ACL authentication 
-		does not require a license key and is best in 
-		situations where the :term:`API` is being called 
-		from client side script such as JavaScript, 
-		jQuery, Angular etc.
+		An ACL determines what networking traffic is allowed to pass and what traffic is blocked.
+		
+		An ACL change is sometimes required to your company firewall in order to access our API.
 	
 	API
 		**Application Programmers Interface.**
