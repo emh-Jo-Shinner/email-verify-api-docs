@@ -49,6 +49,10 @@ To deliver the speed and reliability demanded by our customers, verification res
  
 No personally identifiable information is stored in our cache infrastructure.
 
+Can I get My Usage in Real-Time?
+--------------------------------
+Yes. Please see :doc:`usage-report` for more information.
+
 Can it do Hotmail?
 ------------------
 Yes.

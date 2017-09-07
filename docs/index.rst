@@ -96,6 +96,13 @@ Features
 	:maxdepth: 2
 
 	features
+
+Usage Report
+------------
+.. 	toctree::
+	:maxdepth: 2
+
+	usage-report
 	
 Reliability
 -----------

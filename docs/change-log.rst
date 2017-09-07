@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+V3.4
+----
+* Added quota reporting :term:`RESTful` endpoint
+
 V3.0 (codename \'More\')
 ------------------------
 **Release Date**: May 16th, 2017
