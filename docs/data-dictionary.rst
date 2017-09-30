@@ -2,7 +2,7 @@
 .. _entity defintitions: https://github.com/emailhippo/email-verify-api-v3-client-wrapper-entities
 .. _swagger.io: https://swagger.io
 .. _Endpoint Definitions: https://api.hippoapi.com/swagger/
-.. _WADL : https://api.hippoapi.com/swagger/docs/v3
+.. _WADL : https://api.hippoapi.com/swagger/v3/swagger.json
 .. _version: https://github.com/emailhippo/email-verify-api-v3-client-wrapper-entities/blob/master/src/Components/EmailHippo.EmailVerify.Api.V3.Entities/V_3_0_0/VersionInfo/Version.cs
 .. _meta: https://github.com/emailhippo/email-verify-api-v3-client-wrapper-entities/blob/master/src/Components/EmailHippo.EmailVerify.Api.V3.Entities/V_3_0_0/MetaInfo/Meta.cs
 .. _disposition: https://github.com/emailhippo/email-verify-api-v3-client-wrapper-entities/blob/master/src/Components/EmailHippo.EmailVerify.Api.V3.Entities/V_3_0_0/Dispositions/Disposition.cs
