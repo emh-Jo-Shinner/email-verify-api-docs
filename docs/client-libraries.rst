@@ -1,6 +1,6 @@
 .. _.NET: https://github.com/emailhippo/email-verify-api-v3-client-wrapper
 .. _Swagger Code Generator: https://github.com/swagger-api/swagger-codegen
-.. _Swagger Schema: https://api.hippoapi.com/swagger/docs/v3
+.. _Swagger Schema: https://api.hippoapi.com/swagger/v3/swagger.json
 
 Client Libraries
 ================
