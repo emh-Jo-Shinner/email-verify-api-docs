@@ -12,19 +12,15 @@ enterprise grade uptime of more than 99.9%.
 
 About Our Infrastructure
 ------------------------
-We operate five data centers geographically dispersed as follows:
+We operate three data centers geographically dispersed as follows:
 
  * Europe (Netherlands)
  * United Kingdom (Ireland)
  * United Kingdom (London)
- * North America (Oregon)
- * Asia (Singapore)
 
-Data centers are located to provide you with the best response times as well as providing automatic fail over to another region 
-in the event of a failure in one or more of the data centers.
+Data centers provide automatic fail over to another working data center.
 
-Your closest data center is automatically selected based on your :term:`IP Address`. In the event of a fault in your closest data center, requests are handled by the 
-next closest installation.
+Network traffic is optimized for fast, reliable global delivery using Cloudflare Argo.
 
 Service Level Agreement
 -----------------------
