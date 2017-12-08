@@ -94,8 +94,8 @@ A common vector for persons wishing to remain anonymous is to register or use a 
 
 Unrivalled Performance
 ----------------------
-Strategic data centers in North America, Europe and Asia, aggressive 
-caching and cloud based auto-scaling deliver outstanding performance. 
+Strategic data centers in Europe, aggressive 
+caching, global network delivery optimization and cloud based auto-scaling deliver outstanding performance. 
 Typical queries are answered between 0.2 to 1.5 seconds.
 
 .. note:: See :doc:`technical-spec`
