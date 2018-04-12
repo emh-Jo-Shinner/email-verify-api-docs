@@ -127,13 +127,6 @@ Client Libraries
 	
 	client-libraries
 
-Special Providers
------------------
-.. 	toctree::
-	:maxdepth: 2
-	
-	special-providers
-	
 Technical Specification
 -----------------------
 
