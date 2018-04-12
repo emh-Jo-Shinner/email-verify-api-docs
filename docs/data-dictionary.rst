@@ -628,8 +628,7 @@ Secondary Reason Codes
 	This status differs from a TransientNetworkFault as it should not be retried
 	(the result will not change).
 
-	There are a few known reasons for this status code for example the target mx record uses
-	:term:`Office 365` or a mail provider implementing custom mailbox shutdowns.
+	There are a few known reasons for this status code for example a mail provider implementing custom mailbox shutdowns.
 
 :AtSignNotFound:
 	The required '@' sign is not found in email address.
@@ -655,7 +654,7 @@ Secondary Reason Codes
 	addresses will ever be read.
 
 :GreyListing:
-	:term:`Grey Listing` is in operation. It is not possible to validate email boxes in real-time where grey listing is in operation.
+	:term:`Greylisting` is in operation. It is not possible to validate email boxes in real-time where greylisting is in operation.
 
 :MailboxFull:
 	The mailbox is full.
@@ -725,13 +724,11 @@ Secondary Reason Codes
 :UpredictableSystem:
 	Upredictable system infrastructure detected.
 	
-	Various email services such as Office365 and Yahoo! deliver unpredictable results to email address verification.
+	Various email services deliver unpredictable results to email address verification.
 	
 	The reason for this unpredictability is that some email systems elect not to implement email standards (i.e. RFC 2821).
 	
 	For systems that are known to be unpredictable, we return a secondary status of UpredictableSystem.
-		
-	See :doc:`special-providers` for more information.
 	
 :TransientNetworkFault:
 	A temporary network fault occurred during verification. Please try again later.
